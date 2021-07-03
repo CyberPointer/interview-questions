@@ -1,6 +1,6 @@
 
 public class Cypher {
-    //assumption that cypher is in scope of numbers 0-9 example 1111
+    //assumption that cypher is in scope of numbers 0-9 example 1232394
     public int calculatePossibilities(String cypher) {
         int result = 0;
 

@@ -95,6 +95,8 @@ public class InterViewQuestions {
         //1,11,1,11,1
         System.out.println("possibilities " + cypher.calculatePossibilities("111"));
         System.out.println("possibilities " + cypher.calculatePossibilities("2222222"));
+        System.out.println("possibilities " + cypher.calculatePossibilities("76482"));
+        System.out.println("possibilities " + cypher.calculatePossibilities("4614849"));
 
     }
 }
