@@ -88,6 +88,13 @@ public class InterViewQuestions {
         System.out.println(interViewQuestions.findAllHobbyistsLambda("Reading"));
         System.out.println(interViewQuestions.findAllHobbyistsLambda("Yoga"));
         System.out.println(interViewQuestions.findAllHobbyistsLambda("Drama"));
-        
+
+        Cypher cypher = new Cypher();
+        //1, 12, 2, 23, 3
+        System.out.println("possibilities " + cypher.calculatePossibilities("123"));
+        //1,11,1,11,1
+        System.out.println("possibilities " + cypher.calculatePossibilities("111"));
+        System.out.println("possibilities " + cypher.calculatePossibilities("2222222"));
+
     }
 }
