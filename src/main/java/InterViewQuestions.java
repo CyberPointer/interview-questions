@@ -45,14 +45,6 @@ public class InterViewQuestions {
         return result;
     }
 
-    public List<String> doesntWork(String hobby) {
-        List<String> result = hobbies.entrySet().stream()
-                .flatMap(map -> Arrays.stream(map.getValue())
-                        .filter(searchingHobby -> searchingHobby.equals(hobby)))
-                .collect(Collectors.toList());
-
-        return result;
-    }
 
     public static String reverseMethod(String toBeReversed) {
         StringBuilder result = new StringBuilder();
@@ -96,7 +88,6 @@ public class InterViewQuestions {
         System.out.println(interViewQuestions.findAllHobbyistsLambda("Reading"));
         System.out.println(interViewQuestions.findAllHobbyistsLambda("Yoga"));
         System.out.println(interViewQuestions.findAllHobbyistsLambda("Drama"));
-
-
+        
     }
 }
